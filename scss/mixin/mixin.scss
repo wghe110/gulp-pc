@@ -1,0 +1,14 @@
+// text-hide
+// -----------------
+@mixin text-hide {
+	text-align: left;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+// text-ellipsis
+// -----------------
+@mixin text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
